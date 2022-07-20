@@ -89,7 +89,6 @@ export default {
       detail: {},
       loading: false,
       bookings:[],
-      loading: false,
       accommodation_type:'',
       pagination: {
         // page: 1,
