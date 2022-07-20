@@ -1,43 +1,62 @@
 {
-  "name": "my-first-vue-cli-app",
-  "version": "0.1.0",
+  "name": "blue-book",
+  "version": "0.0.1",
+  "description": "Blue Book App",
+  "productName": "Blue Book",
+  "author": "rmemon122@gmail.com",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "deploy": "npm run build",
+    "prettier": "prettier --write ./src/*"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "@daykeep/calendar-quasar": "^1.0.0-beta.3",
+    "@fullcalendar/core": "^5.8.0",
+    "@fullcalendar/daygrid": "^5.8.0",
+    "@fullcalendar/interaction": "^5.8.0",
+    "@fullcalendar/list": "^5.8.0",
+    "@fullcalendar/vue": "^5.8.0",
+    "@quasar/extras": "^1.10.7",
+    "apexcharts": "^3.27.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.14.0",
+    "echarts": "^4.6.0",
+    "moment": "^2.29.1",
+    "prettier": "^2.3.1",
+    "quasar": "^1.15.21",
+    "vue-apexcharts": "^1.6.1",
+    "vue-echarts-v3": "^2.0.1",
+    "vue-i18n": "^8.24.4",
+    "vuelidate": "^0.7.6",
+    "vuex-persistedstate": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+    "@quasar/app": "^2.2.10",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.11.1",
+    "eslint-webpack-plugin": "^2.5.4"
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    "ie >= 11",
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
 }

@@ -1,0 +1,58 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary: #3862b5;
+$secondary: #1bc5bd;
+$accent: #9c27b0;
+$dark: #181c32;
+$positive: #1bc5bd;
+$negative: #f64e60;
+$info: #8950fc;
+$warning: #ffa800;
+$themebgcolor: #fff;
+$bodybgcolor: #f5f6fa;
+$inputtextcolor: rgba(0, 0, 0, 0.87);
+// Light Theme
+$primaryLight: #d9e5fd;
+$positiveLight: #c9f7f5;
+$negativeLight: #ffe2e5;
+$warningLight: #fff4de;
+$infoLight: #eee5ff;
+
+// Theme
+$theme: $primary;
+$body: #212121;
+$body-light: #b2b2b5;
+$border-color: #ebedf3;
+//sidebar
+$sidebarprimary: #1e1e2d;
+$sidebarprimarydark: #3b4b9c;
+$sidebartext: #a2a3b7;
+$sidebaricon: #494b74;
+$sidebarhover: #000;
+
+// Border Radius
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+// No Hover
+@mixin no-hover {
+  .q-focus-helper,
+  .q-ripple {
+    display: none;
+  }
+}

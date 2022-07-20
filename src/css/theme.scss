@@ -1,0 +1,297 @@
+/* Light/Dark Theme */
+.body--dark {
+  --q-color-dark: #1a1a27;
+  background: #26262f !important;
+
+  .q-card,
+  .q-table__card,
+  .q-menu {
+    background: #1e1e2d !important;
+  }
+
+  .q-field__native,
+  .q-field__prefix,
+  .q-field__suffix,
+  .q-field__input,
+  .btnUser,
+  .form-field .q-field__marginal,
+  .q-table__card,
+  .q-field__marginal {
+    color: #fff;
+  }
+  .menu-card-container {
+    box-shadow: 0 0 5px 0px #fff;
+  }
+  .q-card--bordered,
+  .q-checkbox__bg {
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .shippingFrom-item h5 span {
+    color: #464646;
+  }
+
+  .q-separator {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .q-tree__node-header-content {
+    color: #fff;
+  }
+
+  p.type-writing {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .q-editor {
+    border-color: rgb(255 255 255);
+
+    .q-editor__toolbar-group + .q-editor__toolbar-group:before {
+      background: rgb(231 231 233);
+    }
+
+    .q-editor__toolbar {
+      border-color: rgb(255 255 255);
+    }
+  }
+
+  .q-field__label,
+  .q-item__label--caption {
+    color: #ccc;
+  }
+
+  .q-editor,
+  .q-tab-panels {
+    background-color: #1e1e2d;
+  }
+
+  .bg-white {
+    background: #1e1e2d !important;
+  }
+
+  .text-black {
+    color: #fff !important;
+  }
+
+  .q-header .q-toolbar__title {
+    color: #fff !important;
+  }
+
+  .headerSub,
+  .bg-grey-2 {
+    background: #1a1a27 !important;
+  }
+
+  .q-toolbar {
+    .text-dark,
+    .text-black {
+      color: #fff !important;
+    }
+  }
+
+  .dashboard-chart-row {
+    .dashboard-data-title {
+      border-bottom-color: #262638 !important;
+
+      span {
+        color: #fff !important;
+      }
+    }
+  }
+
+  .q-dialog {
+    .q-card {
+      background: #1e1e2d !important;
+    }
+
+    .dialogTitle {
+      background: #1a1a27 !important;
+
+      h3 {
+        color: #fff !important;
+      }
+    }
+
+    .q-avatar {
+      background: #1a1a27 !important;
+    }
+
+    .dialogBottom {
+      background: #1a1a27 !important;
+      box-shadow: none;
+    }
+
+    .text-dark,
+    .text-black {
+      color: #fff !important;
+    }
+
+    .bg-light-primary {
+      background: #1a1a27 !important;
+    }
+  }
+
+  .q-field {
+    .q-field__control:before {
+      border-color: #37374f !important;
+    }
+  }
+
+  .stepper-custom {
+    background: #1e1e2d !important;
+
+    &.q-stepper--bordered {
+      border: none;
+    }
+
+    .q-card {
+      border-color: #2e2e40;
+    }
+  }
+
+  .q-stepper__header {
+    border-right-color: #37374f !important;
+  }
+
+  .q-stepper__tab {
+    &.q-stepper__tab--active {
+      // color: #fff !important;
+      // background: #3699ff !important;
+      color: #fff !important;
+      background: #46464c !important;
+      .q-icon {
+        color: #fff !important;
+      }
+    }
+  }
+  //   .location-sidebar{
+  //   .q-stepper__tab {
+  //     &.q-stepper__tab--active {
+  //       color: #fff !important;
+  //       background: #46464c !important;
+
+  //     }
+  //   }
+  // }
+
+  .q-stepper__nav {
+    background: #1a1a27 !important;
+    border-color: #1e1e2d !important;
+    box-shadow: none !important;
+  }
+
+  .listTypeItems {
+    li .title {
+      color: #fff;
+    }
+  }
+
+  .shippingFrom-item {
+    background: #afcae5;
+  }
+
+  .accordion-theme {
+    .q-expansion-item {
+      .accordion-theme-thumb {
+        i {
+          // color: #3f425a;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .table-location {
+    color: #d2d2d2;
+
+    .location-fulfillmentoption {
+      i {
+        color: #e4e4e4;
+      }
+    }
+  }
+
+  .existingScheduleItem {
+    background: #1e1e2d;
+    color: #b2b2b5;
+    border-color: #4e4e59;
+    box-shadow: 0 2px 6px rgb(158 158 158);
+  }
+
+  .form-text {
+    color: #e5e5e5;
+  }
+
+  .availableSlotsDay li a {
+    color: rgb(54 153 255);
+  }
+  .footer {
+    background: #1d1d2c;
+    a {
+      color: #3699ff;
+    }
+  }
+  .table-theme {
+    color: #fff;
+    th {
+      background: #464646;
+    }
+    td {
+      .bg-transparent {
+        background-color: transparent !important;
+      }
+    }
+    .customer-table-card {
+      .customer-table-card-title {
+        color: #fff;
+      }
+    }
+
+    .action-btn {
+      color: $body-light;
+    }
+
+    .action-dropdown {
+      color: $body-light;
+    }
+  }
+
+  .customer-review-table td {
+    color: #fff;
+  }
+
+  .q-table__card {
+    .q-table__bottom {
+      .q-table__select {
+        background: #1e1e2d;
+        border-color: #fff;
+      }
+
+      .non-selectable {
+        background: #1e1e2d;
+        border-color: #fff;
+        &.disabled {
+          background: #414142;
+        }
+      }
+    }
+  }
+  .availableSlotsDay {
+    li {
+      .q-btn {
+        color: #fff;
+      }
+    }
+  }
+  .apexcharts-tooltip.apexcharts-theme-light,
+  .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+    background-color: #000;
+  }
+  .leftSidebar {
+    .menu-list {
+      .q-item.q-router-link--active {
+        background-color: #383838;
+      }
+    }
+  }
+}
